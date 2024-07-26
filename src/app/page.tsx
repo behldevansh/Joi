@@ -1,10 +1,11 @@
+import { LampDemo } from "@/components/global/lamp";
 import Navbar from "@/components/global/navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar/>
+    <main className="flex items-center justify-center flex-col">
+      <Navbar />
+      <LampDemo />
     </main>
   );
 }
